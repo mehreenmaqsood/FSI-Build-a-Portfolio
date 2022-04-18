@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(193, 193, 217);
+    border-style: solid dashed;
+}
+
+div{
+    background-color: rgb(58, 109, 157);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+p{
+    font-family:'Courier New', Courier, monospace
+}
+*{
+    line-height: 1.8em;
+}
+h3{
+    text-align: center;
+}
+img{
+    border-radius: 50px 20px;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: center;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
